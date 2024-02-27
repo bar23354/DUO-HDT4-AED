@@ -1,6 +1,15 @@
+/**
+ * Universidad del Valle de Guatemala
+ * Algoritmos y Estructura de Datos - 40
+ * @author Roberto José Barreda Siekavizza, 23354
+ * @author Mia Alejandra Fuentes Merida, 23775
+*/
+
+import java.util.Stack;
+
 public class Calculadora {
     private static Calculadora instance;
-    private Stack<String> stack; 
+    private Stack<String> stack;
 
     private Calculadora() {
         stack = new Stack<>();
@@ -15,14 +24,14 @@ public class Calculadora {
 
     // Método para evaluar una expresión postfix
     public int evaluarPostfix(String expresion) {
-        // agregar algoritmo
-        return 0;
+        // Agregar algoritmo de evaluación postfix
+        return 0;  // Reemplazar con la lógica adecuada
     }
 
     // Método para convertir una expresión infix a postfix
     public String infixToPostfix(String expresion) {
-        // Iagrgar algoritmo
-        return "";
+        // Agregar algoritmo de conversión infix a postfix
+        return "";  // Reemplazar con la lógica adecuada
     }
 
     // Método para evaluar una expresión infix
